@@ -61,6 +61,26 @@ h2, .subtitle {font-family : $Openbold; font-size : 14px; font-weight : normal; 
 }
 ```
 
+## Usage
+
+```JavaScript
+grunt.initConfig({
+    pkg: grunt.file.readJSON("package.json"),
+
+    csscomb: {
+        build: {
+            options: {
+                config: "csscomb.json"
+            },	        	
+            files: {
+                "dist/css/main.css": ["dist/css/main.css"],
+            }
+        }
+    },
+
+});
+```
+
 ## Learn More 
 - Visit [http://csscomb.com/](http://csscomb.com/)
 - Build your own [configuration file](http://csscomb.com/config)
