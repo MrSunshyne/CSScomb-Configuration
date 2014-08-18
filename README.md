@@ -60,3 +60,7 @@ h2, .subtitle {font-family : $Openbold; font-size : 14px; font-weight : normal; 
     text-transform : uppercase;
 }
 ```
+
+## Learn More 
+- Visit [http://csscomb.com/](http://csscomb.com/)
+- Build your own [configuration file](http://csscomb.com/config)
